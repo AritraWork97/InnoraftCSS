@@ -1,0 +1,83 @@
+#Header{
+    text-align:center;
+    padding-top: 10px;
+    font-size:30px;
+    color:white;
+}
+
+.p0{
+    height:100px;
+    width:100%;
+    background-color:lightblue;
+    margin-left:10px;
+}
+
+/*****************************************************************************/
+
+#SideBar{
+    text-align:center;
+    font-size:30px;
+    color:white;
+}
+
+.p1{
+    float:left;
+    height:300px;
+    width:24%;
+    background-color:lightgreen;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+/********************************************************************************/
+
+#MainContent{
+     text-align:center;
+     font-size:30px;
+     color:white;
+}
+
+.p2{
+    float:right;
+    height:150px;
+    width:80%;
+    background-color:rgb(212, 212, 54);
+    margin-top:10px;
+    margin-right:-5%;
+}
+
+/********************************************************************************/
+ 
+#ExtraContent{
+    text-align:center;
+    font-size:30px;
+    color:white;
+}
+
+.p4{
+    float:right;
+    height:130px;
+    width:80%;
+    background-color:gray;
+    margin-top:20px;
+    margin-right:-5%;
+}
+
+/**************************************************************************/
+
+  
+#Footer{
+    text-align:center;
+    padding-top: 10px;
+    font-size:30px;
+    color:white;
+}
+
+.p3{
+    height:100px;
+    width:100%;
+    background-color:darkorange;
+    margin-bottom:200px;
+    margin-left:10px;
+    margin-top:340px;
+}
