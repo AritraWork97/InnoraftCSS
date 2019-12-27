@@ -1,3 +1,9 @@
+.mainContent{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 #Header{
     text-align:center;
     padding-top: 10px;
@@ -9,7 +15,6 @@
     height:100px;
     width:100%;
     background-color:lightblue;
-    margin-left:10px;
 }
 
 /*****************************************************************************/
@@ -22,11 +27,10 @@
 
 .p1{
     float:left;
-    height:300px;
-    width:24%;
+    height:290px;
+    width:19.5%;
     background-color:lightgreen;
-    margin-top:10px;
-    margin-left:10px;
+    margin-top:5px;
 }
 
 /********************************************************************************/
@@ -42,8 +46,7 @@
     height:150px;
     width:80%;
     background-color:rgb(212, 212, 54);
-    margin-top:10px;
-    margin-right:-5%;
+    margin-top:5px;
 }
 
 /********************************************************************************/
@@ -56,11 +59,10 @@
 
 .p4{
     float:right;
-    height:130px;
+    height:132px;
     width:80%;
     background-color:gray;
-    margin-top:20px;
-    margin-right:-5%;
+    margin-top:7px;
 }
 
 /**************************************************************************/
@@ -77,7 +79,9 @@
     height:100px;
     width:100%;
     background-color:darkorange;
-    margin-bottom:200px;
-    margin-left:10px;
-    margin-top:340px;
+    margin-top: -15px;
+}
+
+.clearfix {
+	clear:both;
 }
