@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Calibri";
+}
+.nav{
+	background-color: #d3dadb;
+    display: flex;
+    justify-content: space-around;
+	list-style: none;
+	width: 100%;
+	text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav ul{
+	display: flex;
+    justify-content: space-evenly;
+}
+.nav li{
+    max-width: 150px;
+    list-style: none;
+	text-decoration: none;
+	padding: 1em;
+}
+.nav li a{
+	text-decoration: none;
+	color: #328ced;
+	font-size: 20px;
+	padding: 0.7em;
+}
+.nav li a:hover{
+	background: black;
+	color: white;
+	transition: .5s;
+}
+.logo{
+	width: 30px;
+    height: 30px;
+}
+.banner{
+	width: 100%;
+	display: block;
+	background-color: #61d8ed;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	padding: 70px 0 70px 0;
+}
+
+.left-arrow{
+	float: left;
+	padding-left: 35px;
+}
+
+.right-arrow{
+	float: right;
+	padding-right: 35px;
+}
+
+.main{
+	width: 100%;
+    display: flex;
+	min-height: 650px;
+	overflow: hidden;
+}
+.main-sidebar{
+    width: 33%;
+    margin-top: 10px;
+	margin-left: 150px;
+    padding: 2em 5em 7em;
+	background-color: yellow;
+}
+
+.content{
+    width: 67%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.main-form{
+    height: 70%;
+	background-color: orange;
+    margin-bottom: 10px;
+
+}
+.formstyle{
+	padding: 50px 30px;
+}
+.formstyle input[type="text"],input[type="password"],select{
+	border: none;
+	width: 40%;
+	font-size: 25px;
+	color: white;
+	mix-blend-mode: overlay;
+	background-color: rgba(255, 255, 255,.25);
+}
+.formstyle input[type="submit"]{
+	width: 15%;
+	padding: 7px;
+	font-size: 18px;
+	border: none;
+	background-color: rgba(255,255,255,.25);
+}
+.formstyle input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+.main-float{
+    margin-left: -150px;
+	height: 100%;
+	background-color: #d48cca;
+}
+.main-extra{
+    margin-bottom: 10px;
+    height: 30%;
+	background-color: #70c456;
+}
+footer{
+    margin-top: 10px;
+	position: relative;
+	background-color: #1993a8;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding: 35px 0 35px 0;
+}
+footer li{
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+footer li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 0 0 0 10px;
+}
+footer li a:hover{
+	color: black;
+}
